@@ -8,3 +8,22 @@ ssh -T git@github.com
 git remote -v
 git status
 git log
+
+BASH:
+man
+exit
+whoami
+sudo su
+pwd
+ls
+cd
+cat
+touch
+mkdir
+rmdir
+rm -rf
+rm
+mv
+cp
+
+
