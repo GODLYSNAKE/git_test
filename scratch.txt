@@ -4,6 +4,7 @@ git add .
 git commit -m "message"
 git push
 
+ssh -T git@github.com
 git remote -v
 git status
 git log
