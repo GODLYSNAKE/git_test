@@ -1,4 +1,5 @@
 GIT:
+git init
 git clone <ssh url>
 git add .
 git commit -m "message"
@@ -25,5 +26,3 @@ rm -rf
 rm
 mv
 cp
-
-
