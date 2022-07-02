@@ -4,6 +4,7 @@ git clone <ssh url>
 git add .
 git commit -m "message"
 git push
+git pull
 
 ssh -T git@github.com
 git remote -v
