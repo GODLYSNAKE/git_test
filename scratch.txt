@@ -2,7 +2,7 @@ GIT:
 git init
 git clone <ssh url>
 git add .       *.txt
-git commit -m "message"
+git commit -am "message"        //includes add all to staging
 git push
 git pull
 git reset
@@ -13,7 +13,9 @@ touch .gitignore
 ssh -T git@github.com
 git remote -v
 git status
+git diff
 git log
+git branch -a
 
 
 
@@ -26,7 +28,10 @@ pwd
 ls
 cd
 cat
+head
+tail
 touch
+echo >>
 mkdir
 rmdir
 rm -rf
