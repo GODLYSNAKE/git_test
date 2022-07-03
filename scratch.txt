@@ -1,10 +1,12 @@
 GIT:
 git init
 git clone <ssh url>
-git add .
+git add .       *.txt
 git commit -m "message"
 git push
 git pull
+git reset
+git rm --cached -r <file>
 
 ssh -T git@github.com
 git remote -v
