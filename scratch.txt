@@ -7,6 +7,8 @@ git push
 git pull
 git reset
 git rm --cached -r <file>
+touch .gitignore
+
 
 ssh -T git@github.com
 git remote -v
