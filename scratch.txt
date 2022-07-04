@@ -20,7 +20,6 @@ git log
 git branch -a
 
 
-
 BASH:
 man
 exit
