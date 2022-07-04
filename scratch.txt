@@ -5,13 +5,15 @@ git add .       *.txt
 git commit -am "message"        //includes add all to staging
 git push
 git pull
-git reset
+git reset --hard <commit>
+
 git rm --cached -r <file>
 touch .gitignore
 
 
 ssh -T git@github.com
 git remote -v
+git remote add origin [repo url]
 git status
 git diff
 git log
