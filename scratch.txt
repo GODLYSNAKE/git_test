@@ -14,6 +14,7 @@ touch .gitignore
 ssh -T git@github.com
 git remote -v
 git remote add origin [repo url]
+git branch -M main
 git status
 git diff
 git log
